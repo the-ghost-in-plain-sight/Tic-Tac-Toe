@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16em;
+    flex-wrap: wrap;
+}
+
+.eachCell {
+    width: 5em;
+    height: 5em;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    border: 2px solid blue;
+}
+
+.playerTurn {
+    font-size: 40px;
+    /* margin: 50px ; */
+}
+
+.resetButtons {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: darkcyan;
+    padding: 0;
+    margin: 0 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.result {
+    color: mediumslateblue;
+}
